@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: black;
+    --white: white;
+    --primary: #212529;
+    --gray: gray;
+    --gutter-width: 12px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flx-wrap {
+    flex-wrap: wrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.d-none {
+    display: none;
+}
+
+.light {
+    background-color: #405189;
+}
+
+.white {
+    background-color: var(--white);
+}
+
+.w-80 {
+    width: 80px;
+}
+
+.ml-80 {
+    margin-left: 80px !important;
+}
+.text-left{
+    text-align: left;
+}
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.d-block{
+    display: block;
+}
+.vh-100{
+    height: 100vh;
+}
+ul li {
+    list-style: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+/* login form */
+.login{
+    background-image: url(../images/login/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+label{
+    display:block;
+    margin-bottom: 10px;
+}
+#email-password{
+    padding: 5px 20px;
+    margin-bottom: 10px;
+}
+.form{
+    border: 2px solid rebeccapurple;
+    width: 30%;
+    padding: 20px;
+    margin:  auto;
+    opacity: 1;
+}
+#signin-btn{
+    display: inline;
+    padding: 9px 23px;
+    margin: 9px 0px;
+}
+#signup-btn{
+    display: inline;
+    padding: 9px 20px;
+}
